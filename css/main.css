@@ -1,0 +1,126 @@
+
+
+/**************
+Grid
+**************/
+
+			.item1 { grid-area: header; align-self: stretch; }
+			.item2 { grid-area: text; align-self: center; padding-left: 5%}
+			.item18 {
+			     grid-column-start: 3;
+		    	 grid-row-start: 2;
+			     grid-row-end: 4;
+    			 background-color: #D8D8D8; }
+			.item3 { grid-area: projects; align-self: end; padding-left: 10%; }
+			.item4 { grid-area: contacts; align-self: start; padding-left: 10%;}
+			.item5 { grid-area: picture; }
+			.item6 { grid-area: description; padding-left: 10%; }
+			.item7 { grid-area: interface; place-self:center stretch; }
+			.item8 { grid-area: project1; padding-left: 10%;}
+			.item9 { grid-area: land; }
+			.item10 { grid-area: project2; padding-left: 10%;}
+			.item12 { grid-area: project3; padding-left: 10%;}
+			.item13 { grid-area: landtext1; }
+			.item14 { grid-area: landtext2; }
+			.item15 { grid-area: waterpicture; }
+			.item16 { grid-area: waterdescription; padding-left: 10%; }
+			.item17 { grid-area: waterinterface; place-self:center stretch; }
+
+			.grid-container {
+			  display: grid;
+			  grid-template-rows: auto 352px 352px 352px [sky-picture] auto auto auto auto auto auto/*160px 265px 352px 352px*/;
+			  grid-template-columns: 33.33% 33.4% 33.33%;
+			  grid-template-areas:
+			  	'header header header'
+			    'text text projects'
+			    'text text contacts'
+			    'picture interface interface'
+			    'description interface interface'
+			    'project1 land land'
+			    'project2  . .'
+			    'project3 landtext1 landtext2'
+			    'waterpicture waterinterface waterinterface'
+			    'waterdescription waterinterface waterinterface';
+			  
+			  justify-items: stretch;
+			  align-items: stretch;
+			  grid-gap: 0px;
+			 /* background-color: #2196F3;*/
+			  /*padding: 10px;*/
+			}
+
+			.grid-container > div {
+			/*  background-color: rgba(255, 255, 255, 0.8);*/
+			  text-align: left;
+
+			 /* padding: 20px 2px 20px 52px;*/
+			  font-size: 30px;
+			}
+
+			.grid_picture {
+   
+			    width: 100%;
+			    object-fit: cover;
+				}
+			p {object-fit: cover;}
+
+
+
+
+
+/*************************
+Main Page
+**************************/
+
+/*main description text*/
+#main_description_text {
+	font-family: univia-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+	padding-right: 11%;
+	line-height: 54px;
+}
+
+
+/* Projects names and description styles */
+
+.secondary_text_name {
+	font-family: univia-pro, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 17px;
+	margin: 0;
+}
+
+.secondary_text_description {
+	font-family: univia-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	margin: 2px 0 43px 0;
+	line-height: 20px;
+	padding-right: 8%;
+}
+
+
+
+/* Blocks style */
+
+.block_description_name{
+	font-family: univia-pro, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 18px;
+	margin: 0;
+	line-height: 26px;
+	
+
+}
+
+
+
+
+.secondary_text_h3 {
+	font-size: 20px;
+}
