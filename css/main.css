@@ -4,67 +4,6 @@
 Grid
 **************/
 
-			.item1 { grid-area: header; align-self: stretch; }
-			.item2 { grid-area: text; align-self: center; padding-left: 5%}
-			.item18 {
-			     grid-column-start: 3;
-		    	 grid-row-start: 2;
-			     grid-row-end: 4;
-    			 background-color: #D8D8D8; }
-			.item3 { grid-area: projects; align-self: end; padding-left: 10%; }
-			.item4 { grid-area: contacts; align-self: start; padding-left: 10%;}
-			.item5 { grid-area: picture; }
-			.item6 { grid-area: description; padding-left: 10%; }
-			.item7 { grid-area: interface; place-self:center stretch; }
-			.item8 { grid-area: project1; padding-left: 10%;}
-			.item9 { grid-area: land; }
-			.item10 { grid-area: project2; padding-left: 10%;}
-			.item12 { grid-area: project3; padding-left: 10%;}
-			.item13 { grid-area: landtext1; }
-			.item14 { grid-area: landtext2; }
-			.item15 { grid-area: waterpicture; }
-			.item16 { grid-area: waterdescription; padding-left: 10%; }
-			.item17 { grid-area: waterinterface; place-self:center stretch; }
-
-			.grid-container {
-			  display: grid;
-			  grid-template-rows: auto 352px 352px 352px [sky-picture] auto auto auto auto auto auto/*160px 265px 352px 352px*/;
-			  grid-template-columns: 33.33% 33.4% 33.33%;
-			  grid-template-areas:
-			  	'header header header'
-			    'text text projects'
-			    'text text contacts'
-			    'picture interface interface'
-			    'description interface interface'
-			    'project1 land land'
-			    'project2  . .'
-			    'project3 landtext1 landtext2'
-			    'waterpicture waterinterface waterinterface'
-			    'waterdescription waterinterface waterinterface';
-			  
-			  justify-items: stretch;
-			  align-items: stretch;
-			  grid-gap: 0px;
-			 /* background-color: #2196F3;*/
-			  /*padding: 10px;*/
-			}
-
-			.grid-container > div {
-			/*  background-color: rgba(255, 255, 255, 0.8);*/
-			  text-align: left;
-
-			 /* padding: 20px 2px 20px 52px;*/
-			  font-size: 30px;
-			}
-
-			.grid_picture {
-   
-			    width: 100%;
-			    object-fit: cover;
-				}
-			p {object-fit: cover;}
-
-
 
 
 
@@ -72,18 +11,92 @@ Grid
 Main Page
 **************************/
 
+/* main image block */
+
+.menu {
+	font-family: input-sans, sans-serif;
+    font-weight: 400;
+	font-size: 14px;
+	line-height: 42px;
+	
+	text-align: right;
+    margin-top: 20px;
+	margin-right: 5%;	
+}
+
+li {
+		display: inline;
+		padding-left: 20px;
+}
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.menu a {
+	color: #fff;
+}
+.menu a:active {
+	color: #F4511E;
+}
+.menu a:hover {
+	text-decoration: none;
+	color: #F4511E;
+}
+
+
+
+
+
+
+#company_pres {
+	font-family: input-sans, sans-serif;
+    font-weight: 400;
+	font-size: 16px;
+	line-height: 42px;
+	color: #fff;
+	text-align: right;
+	margin-top: 30%;
+	margin-right: 5%;
+}
+
+h1 {
+	font-size: 72px;
+	color: #071B35;
+	text-align: center;
+	font-family: input-sans, sans-serif;
+    font-weight: 500;
+	/*line-height: 42px;*/	
+}
+
+#company_pres h1 {
+	color: #fff;
+	text-align: right;
+}
+
+
 /*main description text*/
+
 #main_description_text {
 	font-family: univia-pro, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 35px;
-	padding-right: 11%;
-	line-height: 54px;
+	line-height: 50px;
+	padding: 230px 5% 220px 5%;
+	vertical-align: center;
+
 }
 
 
 /* Projects names and description styles */
+
+.side_links {
+	padding: 250px 0 220px 3%;
+	background-color: #D8D8D8;
+}
 
 .secondary_text_name {
 	font-family: univia-pro, sans-serif;
@@ -91,6 +104,8 @@ Main Page
 	font-style: normal;
 	font-size: 17px;
 	margin: 0;
+	padding-left: 10%;
+	
 }
 
 .secondary_text_description {
@@ -101,26 +116,119 @@ Main Page
 	margin: 2px 0 43px 0;
 	line-height: 20px;
 	padding-right: 8%;
+	padding-left: 10%;
 }
 
 
 
 /* Blocks style */
 
+img {
+width: 100%;
+}
+
 .block_description_name{
-	font-family: univia-pro, sans-serif;
+	font-family: input-sans, sans-serif;
 	font-weight: 500;
 	font-style: normal;
 	font-size: 18px;
 	margin: 0;
 	line-height: 26px;
-	
-
+	padding-bottom: 20px;
+	padding-left: 10%;
 }
 
+
+.block_text {
+	padding-top: 58px; 
+/*	padding-left: 10%;*/
+	
+}
+
+.block_whole {
+background-color: #E3E3E3;
+}
 
 
 
 .secondary_text_h3 {
 	font-size: 20px;
 }
+
+
+
+/* Second block style */
+
+.block_two {
+	padding-top: 120px;
+
+}
+
+.block_two .secondary_text_description  {
+padding-bottom: 120px;
+}
+
+
+.two_columns_percentage{
+margin-left: -10%;	
+}
+
+
+/*Last grid block */
+
+
+.block_grid h1 {
+	color: #fff;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+
+.img_gridrow2 {
+	padding-bottom: 180px;
+}
+
+
+
+
+
+/*Footer*/
+
+.footer {
+	font-family: univia-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	padding: 60px 0;
+	line-height: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*************************
+Our Projects Page
+**************************/
+
+
+.menu_whitebkg a {
+	color: #071B35;
+}
+
+
+
+.block_two_projects {
+
+}
+
+.small_project_block {
+	
+}
+
+
+
+
