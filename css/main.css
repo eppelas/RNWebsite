@@ -153,6 +153,7 @@ background-color: #E3E3E3;
 
 .secondary_text_h3 {
 	font-size: 20px;
+	line-height: 27px;
 }
 
 
@@ -221,14 +222,31 @@ Our Projects Page
 
 
 
-.block_two_projects {
+.block_two_projects  {
+
 
 }
 
 .small_project_block {
-	
+padding: 30px 20px;
+
 }
 
+.small_project_block .block_text {
+	background-color: #E3E3E3;
+	padding-bottom: 120px;
+}
+
+
+
+
+/*************************
+About Us Page
+**************************/
+
+.team_photo {
+	margin-bottom: 40px;
+}
 
 
 
