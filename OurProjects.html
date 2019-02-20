@@ -5,8 +5,21 @@
 	<title>РН Текник</title>
 	<link rel="stylesheet" href="https://use.typekit.net/xve6uyd.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/modal.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/carousel.js"></script>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 		
 </head>
@@ -19,15 +32,23 @@
 	</header>
 
 
+
+
+  
+
+
+
 <div class="container-fluid">
-	<div class="row block_whole">
+	<div class="row block_whole"  data-toggle="modal" data-target="#Project01">
 			<div class="col-md-8 p-0 order-md-2" >
 		  		<img src="img/skyinterface.jpg" style="max-height: 100%" class="constant_picture">
+		  		
 			</div>
 			
 			<div class="col-md-4 p-0 order-md-1">
 				<div class="d-none d-md-block">
-		  			<img src="img/murenaimage.jpg" class="constant_picture">
+		  			<img src="img/murenaimage.jpg">
+
 				</div>
 				<div class="block_text">
 					<h2 class="block_description_name">Мурена.</h2>
@@ -162,7 +183,154 @@
 
 
 
+<!-- Project 1 Modal -->
+  <div class="modal fade" id="Project01">
+    <div class="modal-dialog modal-lg" style="margin-left: 20px; width: 1210px;">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="width: 1210px;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div>
+        	<h1 class="">Ввод/вывод А320</h1> 
+          </div>
+          <div class="container-fluid">
+
+          	<div class="row block_two">
+
+    	<div class="col-md-4 p-0">
+    		<div>
+    		  <p class= "secondary_text_name"> Название 2 </p> <p class= "secondary_text_description" >Стрелковый тренажер</p>
+    		</div>
+    		<div>
+    		  <p class= "secondary_text_name"> Название 3 </p> <p class= "secondary_text_description">Система распознавания голоса</p>
+    		</div>
+    	</div>
+    	<div class="col-md-8 p-0"> 
+    		<p class="block_description_name two_columns_percentage"> На суше. Разработка автоматизированных обучающих систем.</p> <p class= "secondary_text_description secondary_text_h3 two_columns_percentage"> Технологии для реализации теоретического компьютерного обучения. </p>
+    	</div>
+
+    
+    </div>
+
+    <div class="row">
+    	<div class="col-md-4 p-0">
+    		<div>
+    		  <p class= "secondary_text_name"> Russian Ninja Warrior </p> <p class= "secondary_text_description">Полоса препятствий</p>	
+    		</div>
+    	</div>
+    	
+    	<div class="col-md-4 p-0">
+    		<div>
+    		  <p class= "secondary_text_description two_columns_percentage">Обучение начинается еще на земле.
+				Компания РН Текник предлагает технологии для реализации теоретического компьютерного обучения. Интеграция с любыми система управления обучением LMS, 3D модели систем воздушных судов, интерактивные 3D модели, сделанные на Unity3D. </p>
+    		</div>
+    	</div>
+    	<div class="col-md-4 p-0">	
+    		<div>
+				<p class= "secondary_text_description two_columns_percentage" >Мы делаем постановку задач на компьютерное обучение, разрабатываем методические материалы для обучения, собираем и анализируем данные, оформляем материалы.</p>
+    		</div>    		
+    	</div>
+
+    </div>
+
+
+         
+
+     <div id="carousel-example-multi" class="carousel carousel-multi slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+    <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+    <li data-target="#carousel-example-multi" data-slide-to="3"></li>
+    <li data-target="#carousel-example-multi" data-slide-to="4"></li>
+    <li data-target="#carousel-example-multi" data-slide-to="5"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="media media-card">
+    <!--     <div class="media-category">Commodities Quarterly</div> -->
+		<img src="img/grid01.jpg">
+		<img src="img/grid02.jpg">
+		<img src="img/grid03.jpg">
+		<img src="img/grid04.jpg">	
+      </div>
+    </div>
+
+    <div class="item ">
+      <div class="media media-card">
+        		<img src="img/grid01.jpg">
+		<img src="img/grid02.jpg">
+		<img src="img/grid03.jpg">
+		<img src="img/grid04.jpg">
+      </div>
+    </div>
+
+    <div class="item ">
+      <div class="media media-card">
+        <img src="img/grid01.jpg">
+		<img src="img/grid02.jpg">
+		<img src="img/grid03.jpg">
+		<img src="img/grid04.jpg">
+      </div>
+    </div>
+
+    <div class="item ">
+      <div class="media media-card">
+        <img src="img/grid01.jpg">
+		<img src="img/grid02.jpg">
+		<img src="img/grid03.jpg">
+		<img src="img/grid04.jpg">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-multi" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-multi" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>     
+
+ </div>	
+
+ <div class="row">
+ 	<div class="col-md-2"></div>
+ 	<div class="col-md-8">
+ <img src="img/a320image.jpg">
+ </div>
+ <div class="col-md-2"></div>
+ </div>
+
+
+ <div class="row">
+ 	<div class="col-md-2"></div>
+ 	<div class="col-md-8">
+		<p>Разработка программного обеспечения для навигационных тренажеров, разработка модели движения кораблей и подводных лодок, интеграция с оборудованием навигацоинного мостика, подготовка данных для получения квалификационной оценки тренажера.</p> 		
+ 	</div>
+
+ </div>	
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 		
+
 
 		 
 
