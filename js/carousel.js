@@ -12,3 +12,6 @@ $('.carousel.carousel-multi .item').each(function () {
 		$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
 	}
 });
+
+
+
