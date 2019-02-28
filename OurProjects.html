@@ -39,7 +39,7 @@
 
 
 <div class="container-fluid">
-	<div class="row block_whole"  data-toggle="modal" data-target="#A320">
+	<div class="row block_whole"  data-toggle="modal" data-target="#A320" style="cursor: pointer;">
 			<div class="col-md-8 p-0 order-md-2" >
 		  		<img src="img/a320interface.jpg" style="max-height: 100%" class="constant_picture">
 		  		
@@ -86,10 +86,10 @@
     </div>
 
     
-    <div class="row block_whole">
+    <div class="row block_whole" data-toggle="modal" data-target="#Ninja" style="cursor: pointer;">
 
 			<div class="col-md-8 p-0 order-md-2" >
-		  		<img src="img/russianninjainterface.jpg" style="max-height: 100%" class="constant_picture">
+		  		<img src="img/russianninjainterface.jpg" style="max-height: 100%; cursor: pointer;" class="constant_picture">
 			</div>
 			
 			<div class="col-md-4 p-0 order-md-1">
@@ -106,7 +106,7 @@
 	<div class="row block_two_projects">
     	<div class="col-md-1 p-0">	
     	</div>
-    	<div class="col-md-5 small_project_block"  data-toggle="modal" data-target="#IO_A320">
+    	<div class="col-md-5 small_project_block"  data-toggle="modal" data-target="#IO_A320" style="cursor: pointer;">
     		<div>
     			<img src="img/a320inputoutput.jpg">
     		</div>
@@ -404,6 +404,11 @@
 
 
 
+
+
+
+
+
 <!-- Modal IO 320 -->
 
   <div class="modal fade" id="IO_A320">
@@ -555,6 +560,167 @@
  </div> 
 
 <!-- Modal 2 ends -->
+
+
+
+
+
+
+
+
+<!-- Modal Russian Ninja -->
+
+  <div class="modal fade" id="Ninja">
+    <div class="modal-dialog modal-dialog-xl" >
+    
+      <!-- Modal content-->
+      <div class="modal-content"">	
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div>
+        	<h1 class="">Полоса препятствий</h1> 
+          </div>
+          <div class="container-fluid">
+
+          	<div class="row block_two">
+
+    			<div class="col-md-4 p-0">
+    				<div>
+		    		  <p class= "secondary_text_name">Что сделано</p> <p class= "secondary_text_description">Барьерные датчики<br>Собственная плата управления</p>
+		    		</div>
+    			</div>
+		    	<div class="col-md-8 p-0"> 
+		    		<p class="block_description_name two_columns_percentage"> Аппаратное решение для организации полосы препятствий — фиксирование времени прохождения и вывода списка лидеров. </p> <p class= "secondary_text_description secondary_text_h3 two_columns_percentage"> Мы поставляем готовую коробку со всеми необходимыми деталями. Вам просто нужно установить комплектующие в желаемых местах, запустить систему, и можно начинать соревнования.  
+
+		    		</p>
+		    	</div>
+			</div>
+
+			<!-- <div class="row"> -->
+	  		    <!-- <div id="carousel-project5" class="carousel carousel-multi slide " style="margin-top: -80px;"> -->
+				  <!-- Indicators -->
+		<!-- 		  <ol class="carousel-indicators">
+				    <li data-target="#carousel-project5" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-project5" data-slide-to="1"></li>
+				    <li data-target="#carousel-project5" data-slide-to="2"></li>
+				    <li data-target="#carousel-project5" data-slide-to="3"></li>
+				    <li data-target="#carousel-project5" data-slide-to="4"></li>
+				    <li data-target="#carousel-project5" data-slide-to="5"></li>
+				  </ol> -->
+
+				  <!-- Wrapper for slides -->
+
+				  <!-- 	<div class="row">
+
+					  	<div class="col-1">
+					  		<a class="left carousel-control" href="#carousel-project5" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						   </a>
+						</div>			   
+
+
+					  	<div class="col-10 p-0">
+
+					  		<div class="carousel-inner row p-0" role="listbox">
+
+							    <div class="item active row">
+							      <div class="media media-card">
+							      	<div class="col-md-3 p-1">	
+									<img src="img/projects5-img01.jpg">
+									</div>
+									<div class="col-md-3 p-1">	
+									<img src="img/projects5-img02.jpg">
+									</div>
+									<div class="col-md-3 p-1">	
+									<img src="img/projects5-img03.jpg">
+									</div>
+									<div class="col-md-3 p-1">	
+									<img src="img/projects5-img04.jpg">	
+									</div>
+							      </div>
+							    </div>
+
+							    <div class="item row ">
+							      	<div class="media media-card">
+							      		<div class="col-md-3 p-1">	
+							        		<img src="img/projects5-img05.jpg">
+								    	</div>
+									    <div class="col-md-3 p-1">	
+											<img src="img/projects5-img06.jpg">
+										</div>
+										<div class="col-md-3 p-1">	
+											<img src="img/projects5-img07.jpg">
+										</div>
+										<div class="col-md-3 p-1">	
+											<img src="img/projects5-img08.jpg">
+										</div>
+								    </div>
+								</div>
+							</div>			   
+						</div>			   
+
+
+					  	<div class="col-1">
+							  <a class="right carousel-control" href="#carousel-project5" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+						</div>			   
+					</div>	 -->		   
+
+				    
+ 				<!-- </div> -->
+		
+			</div>     
+
+
+		    <div class="row">
+		    	<div class="col-md-4 p-0">
+		    		<div>
+		    		  <p class= "secondary_text_name">Уникальность</p> <p class= "secondary_text_description">Дистанционный контроль<br>Значительно дешевле аналогов <br>Поставка готовой системы в одной коробке</p>
+		    		</div>
+		    	</div>
+		    	
+		    	<div class="col-md-4 p-0">
+		    		<div>
+		    		  <p class= "secondary_text_description two_columns_percentage"> Мы разработали систему, которая фиксирует время прохождения полосы препятствий и формирует таблицу результатов с именами участников. <br> До начала старта участник вводит своё имя на планшете. Возле начала трассы установлена светодиодная лента, которая цветовой индикацией указывает, когда можно стартовать.
+					  </p>
+		    		</div>
+		    	</div>
+		    	<div class="col-md-4 p-0">	
+		    		<div>
+					  <p class= "secondary_text_description two_columns_percentage" >
+					   Старт таймера запускается датчиком движения, завершение — нажатием кнопки стоп. После этого на экране высвечивается имя и время участника, а спустя какое-то время — таблица результатов, которая состоит из десяти лидеров текущего забега. <br> Контролирует систему разработанная нами плата управления, к которой дистанционно присоединяются остальные комплектующие. С планшета происходит удаленное управление компьютером.
+					  </p>
+		    		</div>    		
+		    	</div>
+		    </div>
+
+	<!-- 		<div class="row">
+			  <div class="col-md-2">
+			  </div>
+			  <div class="col-md-8">
+			 	<img src="img/a320image.jpg" style="object-fit: cover; max-height: 600px;">
+			  </div>
+			  <div class="col-md-2">
+			  </div>
+			</div> -->
+
+		  </div>
+		</div>
+		<!-- <div class-"btn-modal"> -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default " data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>	 
+ </div> 
+
+<!-- Modal 3 ends -->
 
 
 
